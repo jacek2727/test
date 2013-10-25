@@ -1,0 +1,4 @@
+jar_register_for_classes:
+    resource: "@JarRegisterForClassesBundle/Resources/config/routing.yml"
+    prefix:   /
+
