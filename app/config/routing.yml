@@ -1,3 +1,7 @@
+jar_user:
+    resource: "@JarUserBundle/Resources/config/routing.yml"
+    prefix:   /
+
 jar_register_for_classes:
     resource: "@JarRegisterForClassesBundle/Resources/config/routing.yml"
     prefix:   /
