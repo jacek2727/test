@@ -1,3 +1,11 @@
 jar_user_homepage:
-    pattern:  /hello/{name}
+    pattern:  /admin
     defaults: { _controller: JarUserBundle:User:index }
+
+login:
+    pattern: /login
+    defaults: { _controller: JarUserBundle:Security:login }
+
+logout:
+    pattern: /logout
+    defaults: { _controller: JarUserBundle:Security:logout }
